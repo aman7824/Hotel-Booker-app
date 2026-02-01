@@ -1,0 +1,154 @@
+You are a senior full-stack Django developer and software architect.
+
+Your task is to build a COMPLETE, FULLY WORKING
+"Hotel Booking Web Application using Django"
+from scratch with clean architecture, best practices, and step-by-step guidance.
+
+I want the application to be production-ready and resume-worthy.
+
+========================
+1. TECH STACK
+========================
+- Backend: Django (latest stable version)
+- Frontend: HTML, CSS, Bootstrap, JavaScript
+- Database: SQLite (initially) + guide to switch to PostgreSQL
+- Authentication: Django built-in auth
+- Media handling: Django Media & Static files
+- Admin Panel: Django Admin
+- Optional: Docker (basic setup)
+
+========================
+2. CORE FEATURES
+========================
+User Side:
+- User Registration & Login
+- Browse Hotels
+- View Hotel Details
+- View Available Rooms
+- Select Check-in & Check-out Dates
+- Room Booking System
+- Booking Confirmation
+- View My Bookings
+- Cancel Booking
+- Responsive UI
+
+Admin Side:
+- Admin Login
+- Add / Edit / Delete Hotels
+- Add / Edit / Delete Rooms
+- Upload Hotel & Room Images
+- Manage Bookings
+- Change Booking Status (Confirmed / Cancelled)
+- Dashboard Summary
+
+========================
+3. DATABASE MODELS
+========================
+Design Django models with proper relationships:
+- User (Django default)
+- Hotel
+- Room
+- Booking
+
+Include:
+- ForeignKey relations
+- Date fields
+- Price calculation logic
+- Availability logic
+- Proper __str__ methods
+
+========================
+4. STEP-BY-STEP DEVELOPMENT PROCESS
+========================
+Explain and IMPLEMENT each step clearly:
+
+Step 1:
+- Create virtual environment
+- Install Django
+- Create Django project
+- Create app (booking / hotels)
+
+Step 2:
+- Configure settings.py
+- Templates & Static files setup
+- Media files setup
+
+Step 3:
+- Create models
+- Run makemigrations & migrate
+- Register models in admin panel
+
+Step 4:
+- Authentication system (signup, login, logout)
+- Protect routes using login_required
+
+Step 5:
+- Hotel listing page
+- Hotel detail page
+- Room availability logic
+
+Step 6:
+- Booking system
+- Date validation
+- Prevent double booking
+- Total price calculation
+
+Step 7:
+- User dashboard (My Bookings)
+- Cancel booking functionality
+
+Step 8:
+- Admin management features
+- Admin dashboard improvements
+
+========================
+5. VIEWS & URLS
+========================
+- Use function-based views (or class-based where suitable)
+- Clean URL structure
+- Proper naming conventions
+
+========================
+6. TEMPLATES
+========================
+- Base template
+- Navbar & Footer
+- Home page
+- Hotel list
+- Hotel detail
+- Booking form
+- Login / Register
+- My bookings page
+
+========================
+7. ERROR HANDLING & VALIDATION
+========================
+- Form validation
+- Date validation
+- Availability checks
+- User-friendly error messages
+
+========================
+8. FINAL TOUCH
+========================
+- Dummy data for testing
+- Screenshots guidance
+- README.md content
+- Resume-ready project description
+- GitHub folder structure
+- Optional Dockerfile
+
+========================
+9. OUTPUT FORMAT
+========================
+For EACH STEP provide:
+- Explanation
+- Code (models.py, views.py, urls.py, templates)
+- Commands to run
+- Expected output
+
+Do NOT skip any step.
+Do NOT give partial code.
+Assume I am a fresher but want an industry-level project.
+
+Start from Step 1 and continue until the FULL APPLICATION is COMPLETE.
